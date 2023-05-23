@@ -20,6 +20,6 @@ public class HelloWorldController {
     @GetMapping("")
     public String hello(){
         log.info("接收到请求！");
-        return "你好！";
+        return "你好！2";
     }
 }
